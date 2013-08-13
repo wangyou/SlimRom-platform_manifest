@@ -10,7 +10,8 @@
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="8" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="jb4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
