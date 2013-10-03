@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+  <remote name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="github"
+  <remote name="github"
            fetch="git://github.com/"
            review="https://review.slimroms.net:8443/"/>
 
@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <remote  name="cr"
+  <remote name="cr"
            fetch="https://github.com/CarbonDev/"
            sync-j="4" />
 
@@ -305,7 +305,7 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jb4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="cr" revision="jb3" />
+  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="jb4.3" />
